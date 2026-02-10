@@ -63,8 +63,8 @@ Priorité moyenne :
 ## 📖 Book — Web Development with Node & Express (Ethan Brown)
 
 Chapitres essentiels (core backend) :
-- [ ] 2 – Getting Started with Node
-- [ ] 3 – Saving Time with Express
+- [x] 2 – Getting Started with Node
+- [x] 3 – Saving Time with Express
 - [ ] 4 – Project structure
 - [ ] 6 – Request / Response
 - [ ] 8 – Forms

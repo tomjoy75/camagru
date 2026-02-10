@@ -1,0 +1,16 @@
+{
+  "name": "camagru",
+  "version": "1.0.0",
+  "description": "Photo sharing web app built with Node.js and Express (42 Project)",
+  "license": "MIT",
+  "author": "Thomas Joyeux",
+  "type": "commonjs",
+  "main": "camagru.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.5"
+  }
+}
