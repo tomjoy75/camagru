@@ -1,10 +1,9 @@
 const express = require('express');
 const app = express();
-const expressHandlebars = require('express-handlebars').engine;
-console.log(expressHandlebars)
+const {engine} = require('express-handlebars');
 const port = process.env.PORT || 3000
 
-app.engine('handlebars', expressHandlebars({ defaultLayout: 'main' }));
+app.engine('handlebars', engine({ defaultLayout: 'main' }));
 
 app.use(express.static(__dirname + '/public'))
 app.set('view engine', 'handlebars');
