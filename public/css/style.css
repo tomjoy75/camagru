@@ -1,4 +1,16 @@
 body {
     color: purple;
     background-color: #d8da3d;
+    /* background: #f06; */
+    background: linear-gradient(45deg, #f06, yellow);
+    min-height: 100%;
+}
+h1 {
+    color: blue;
+}
+header{
+    width: 1750px;
+    max-width:100%;
+    background-color: aqua;
+    text-align: center;
 }

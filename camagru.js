@@ -9,6 +9,9 @@ app.use(express.static(__dirname + '/public'))
 app.set('view engine', 'handlebars');
 
 app.get('/', (req, res) => res.render('home'));
+app.get('/about', (req, res) => res.render('about'));
+app.get('/login', (req, res) => res.render('login'));
+app.get('/register', (req, res) => res.render('register'));
 
 app.listen(port, () => console.log(
 	`Express started on http://localhost:${port};` +
