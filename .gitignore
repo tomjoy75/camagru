@@ -4,3 +4,4 @@ node_modules
 # (OSX), *.bak, etc.
 tests/
 *.swp
+coverage/
